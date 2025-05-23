@@ -1,24 +1,23 @@
  h3 {
-color: #00000
+color: #000000;
 }
 
 body{ 
 background-color: #ccd5ae;
 }
 
-text-decoration: red straight 3px overline underline;
-letter-spacing: 120px;
+
 
 img:hover{
-  width: 320px;
+  width: 400px;
   border: pink striped 15px;
   border-radius: 70%;
 }
 
-h2:hover {
-  font-size: 420%;
+h3:hover {
+  font-size: 120%;
   text-transform: uppercase;
-  text-decoration: wavy underline green
+  text-decoration: wavy underline black;
 }
   
 nav{
@@ -36,5 +35,10 @@ li a {
   display: block;
   float: left;
   padding: 15px 50px;
+}
+
+li a:hover{
+  text-decoration: red straight 3px overline underline;
+
 }
   
